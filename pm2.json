@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "rss-reader",
+      "script": "server.js",
+      "max_memory_restart": "1G",
+      "autorestart": true,
+      "node_args": [],
+      "args": [],
+      "env": {}
+    }
+  ]
+}

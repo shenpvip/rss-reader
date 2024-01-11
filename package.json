@@ -8,7 +8,7 @@
     "start": "node server.js",
     "build:client": "cd client && yarn && yarn build",
     "deploy:server": "pm2 startOrReload pm2.json",
-    "deploy": "yarn build:client && pm2 startOrReload pm2.json"
+    "deploy": "yarn build:client && yarn start"
   },
   "dependencies": {
     "@fastify/cors": "^8.2.0",
